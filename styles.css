@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-container label,
+.form-container input {
+  margin-bottom: 10px;
+}
+
+.api-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#search-btn {
+  background-color: lightblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#clear-btn {
+  background-color: lightblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#clear-btn:hover {
+  background-color: lightgreen;
+}
+
+#search-btn:hover {
+  background-color: lightgreen;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+#search-bar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.api-container {
+  margin-top: 20px;
+  text-align: center;
+  background-color: white; /* Set the background color for the container */
+  padding: 20px;
+  border-radius: 8px;
+}

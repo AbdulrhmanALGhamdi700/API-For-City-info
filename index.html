@@ -1,0 +1,34 @@
+<!--Abdulrhman AL-Ghamdi 2140786-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IP Geolocation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">IP Geolocation</h1>
+    <div id="search-bar">
+      <input type="text" id="ip-input" placeholder="Enter IP address">
+      <select id="field-select">
+        <option value="city">City</option>
+        <option value="region">Region</option>
+        <option value="region_code">Region Code</option>
+        <option value="country">Country</option>
+        <option value="country_name">Country Name</option>
+        <option value="continent_code">Continent Code</option>
+        <option value="postal">Postal Code</option>
+        <option value="timezone">Timezone</option>
+        <option value="languages">Languages</option>
+
+      </select>
+      <button id="search-btn">Search</button>
+      <button id="clear-btn">Clear</button>
+    </div>
+    <div id="location-info" class="api-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
